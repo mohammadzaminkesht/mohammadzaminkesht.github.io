@@ -22,11 +22,14 @@ body{
 
 .sidebar h3{
     font-size: 22px;
-    color: #fff;
     text-align: center;
     line-height: 70px;
     background-color: #063146;
     user-select: none;
+}
+
+.sidebar h3 a{
+    color: #fff;
 }
 
 .sidebar ul a{
@@ -109,7 +112,7 @@ section .header{
 }
 
 section .header .text{
-    flex-basis: 50%;
+    flex-basis: 55%;
     direction: rtl;
     padding: 50px 30px 50px 80px;
     margin-top: 80px;
@@ -122,7 +125,7 @@ section .header .text h2{
 }
 
 section .header .text p{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: normal;
     line-height: 1.5;
     padding-bottom: 8px;
@@ -133,7 +136,7 @@ section .header .text .last_p{
 }
 
 section .header .image{
-    flex-basis: 50%;
+    flex-basis: 45%;
 }
 
 section .header .image img{
@@ -147,7 +150,7 @@ section .header .image img{
 section .header a.button{
     font-size: 22px;
     border-radius: 8px;
-    padding: 15px 40px;
+    padding: 15px 45px;
     border: 2px double transparent;
     background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
     color: #fff;
@@ -157,4 +160,63 @@ section .header a.button:hover{
     background-image: linear-gradient( #fff, #fff), radial-gradient(circle at top left, #4458dc, #854fee);
     border: 2px double #854fee;
     color: #000;
+}
+
+/* Extra large devices (large desktops) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1250px) {
+    
+    /*section .header .text{
+        padding: 45px 25px 45px 75px;
+        margin-top: 70px;
+    }
+    
+    section .header .text h2{
+        font-size: 35px;
+    }
+    
+    section .header .text p{
+        font-size: 17px;
+        padding-bottom: 7px;
+    }
+    
+    section .header .text .last_p{
+        margin-bottom: 35px;
+    }
+    
+    section .header .image img{
+        width: 425px;
+        height: 525px;
+    }*/
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 1073px) {
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 952px) {
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 700px) {
+
+    section .header{
+        flex-direction: column-reverse;
+        height: 1200px;
+        background-color: #E2E2E2;
+    }
+
+    section .header .text{
+        text-align: center;
+    }
+
+    section .header .image{
+        text-align: center;
+    }
+
 }

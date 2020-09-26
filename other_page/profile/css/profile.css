@@ -181,7 +181,7 @@ section .header a.button:hover{
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 576px) {
+@media (max-width: 700px) {
 
     section .header{
         flex-direction: column-reverse;

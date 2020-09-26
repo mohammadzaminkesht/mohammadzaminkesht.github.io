@@ -45,7 +45,7 @@ body{
 
 ul li:hover a{
     padding-right: 50px;
-    color: #ede622;;
+    color: #ede622;
 }
 
 .sidebar ul a i{
@@ -111,6 +111,25 @@ section .header{
 section .header .text{
     flex-basis: 50%;
     direction: rtl;
+    padding: 50px 30px 50px 80px;
+    margin-top: 80px;
+}
+
+section .header .text h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section .header .text p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    padding-bottom: 8px;
+}
+
+section .header .text .last_p{
+    margin-bottom: 40px;
 }
 
 section .header .image{
@@ -118,8 +137,24 @@ section .header .image{
 }
 
 section .header .image img{
-    width: 550px;
-    height: 650px;
+    width: 450px;
+    height: 550px;
     padding: 20px;
     margin-top: 40px;
+    margin-left: 30px;
+}
+
+section .header a.button{
+    font-size: 22px;
+    border-radius: 8px;
+    padding: 15px 40px;
+    border: 2px double transparent;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+    color: #fff;
+}
+
+section .header a.button:hover{
+    background-image: linear-gradient( #fff, #fff), radial-gradient(circle at top left, #4458dc, #854fee);
+    border: 2px double #854fee;
+    color: #000;
 }

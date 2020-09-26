@@ -22,11 +22,14 @@ body{
 
 .sidebar h3{
     font-size: 22px;
-    color: #fff;
     text-align: center;
     line-height: 70px;
     background-color: #063146;
     user-select: none;
+}
+
+.sidebar h3 a{
+    color: #fff;
 }
 
 .sidebar ul a{
@@ -98,7 +101,7 @@ label #cancel{
 }
 
 #check:checked ~ section{
-    margin-right: 250px;
+    margin-right: 0px;
 }
 
 section{

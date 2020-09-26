@@ -168,28 +168,6 @@ section .header a.button:hover{
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1250px) {
     
-    /*section .header .text{
-        padding: 45px 25px 45px 75px;
-        margin-top: 70px;
-    }
-    
-    section .header .text h2{
-        font-size: 35px;
-    }
-    
-    section .header .text p{
-        font-size: 17px;
-        padding-bottom: 7px;
-    }
-    
-    section .header .text .last_p{
-        margin-bottom: 35px;
-    }
-    
-    section .header .image img{
-        width: 425px;
-        height: 525px;
-    }*/
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -213,10 +191,15 @@ section .header a.button:hover{
 
     section .header .text{
         text-align: center;
+        padding: 0px 30px;
     }
 
     section .header .image{
         text-align: center;
+    }
+
+    section .header .image img{
+        margin: 0;
     }
 
 }

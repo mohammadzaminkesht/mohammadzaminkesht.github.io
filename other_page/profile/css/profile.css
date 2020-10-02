@@ -126,7 +126,7 @@ section .header .text h2{
 }
 
 section .header .text p{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: normal;
     line-height: 1.5;
     padding-bottom: 8px;
@@ -186,25 +186,23 @@ section .header a.button:hover{
 
     section .header{
         flex-direction: column-reverse;
-        /* height: 1200px; */
+        height: 1150px;
         background-color: #E2E2E2;
     }
 
     section .header .text{
         text-align: center;
         padding: 0px 30px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     section .header .image{
         text-align: center;
-        margin-top: 50px;
-        
     }
 
     section .header .image img{
         margin: 0;
-        width: 400px;
+        width: 350px;
         height: 500px;
     }
 

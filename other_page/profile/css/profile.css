@@ -198,6 +198,8 @@ section .header a.button:hover{
 
     section .header .image{
         text-align: center;
+        margin-top: 50px;
+        
     }
 
     section .header .image img{

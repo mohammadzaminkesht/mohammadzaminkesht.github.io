@@ -63,3 +63,56 @@ body{
     border: 2px double #854fee;
     color: #f00;
 }
+
+/* Extra large devices (large desktops) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1250px) {
+    
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 1073px) {
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 952px) {
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+
+    .about_me{
+        display: flex;
+        flex-direction: column;
+        margin: 40px 25px;
+        padding: 15px;
+        direction: rtl;
+    }
+
+    .about_me h2{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .about_me p{
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 1.2;
+        padding-bottom: 10px;
+    }
+
+    .about_me a.back{
+        width: 220px;
+        margin-bottom: 10px;
+    }
+
+    .about_me a.like{
+        width: 85px;
+    }
+
+}

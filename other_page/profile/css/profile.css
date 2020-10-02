@@ -186,7 +186,7 @@ section .header a.button:hover{
 
     section .header{
         flex-direction: column-reverse;
-        height: 1150px;
+        height: 1050px;
         background-color: #E2E2E2;
     }
 

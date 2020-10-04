@@ -105,7 +105,7 @@ label #cancel{
 }
 
 section{
-    background-image: linear-gradient(rgba(65, 63, 68, 0.2),rgba(65, 63, 68, 0.2)), url('/img/home/bg-header.jpg');
+    background-image: linear-gradient(rgba(65, 63, 68, 0.4),rgba(65, 63, 68, 0.4)), url('/image/bg-header.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

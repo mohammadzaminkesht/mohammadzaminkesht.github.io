@@ -107,12 +107,14 @@ body{
     }
 
     .about_me a.back{
-        width: 220px;
-        margin-bottom: 50px;
+        width: 200px;
+        padding: 15px 20px;
+        margin-bottom: 10px;
     }
 
     .about_me a.like{
-        width: 85px;
+        width: 65px;
+        padding: 15px 20px;
     }
 
 }
